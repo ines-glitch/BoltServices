@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
+  <diagram name="Page-1" id="W-yH-IT8HqSGB8wEkdUh">
+    <mxGraphModel dx="1513" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Animal Clinic - Bolt Services" vertex="1">
+          <mxGeometry height="440" width="560" x="100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-2" parent="h7JopPEEhxZMCP3t9MoO-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="create Table animals: name, group, breed, age, owner&#39;s name, owner&#39;s contact&lt;div&gt;Each animal will have an ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="440" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-3" parent="h7JopPEEhxZMCP3t9MoO-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="primary key is animal id" vertex="1">
+          <mxGeometry height="30" width="150" x="380" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-4" parent="h7JopPEEhxZMCP3t9MoO-1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;Table: animal&lt;/span&gt;&lt;/div&gt;&lt;div&gt;patient_id&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;category_type&lt;/div&gt;&lt;div&gt;breed&lt;/div&gt;&lt;div&gt;DOB&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;gender&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;weight&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;health record (text)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;neutered (YES NO)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;owner&#39;s id (as a foreign key)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="260" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-6" parent="h7JopPEEhxZMCP3t9MoO-1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;Table: Owners&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;owner&#39;s id: 52&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;first name: Francisca Martins&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;last name:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Martins&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;phone number&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="300" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-19" edge="1" parent="h7JopPEEhxZMCP3t9MoO-1" source="h7JopPEEhxZMCP3t9MoO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.525;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="h7JopPEEhxZMCP3t9MoO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7JopPEEhxZMCP3t9MoO-21" edge="1" parent="h7JopPEEhxZMCP3t9MoO-1" source="h7JopPEEhxZMCP3t9MoO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.01;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;shape=wire;dashed=1;endArrow=none;endFill=0;" target="h7JopPEEhxZMCP3t9MoO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
