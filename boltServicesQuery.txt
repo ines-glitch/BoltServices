@@ -1,0 +1,12 @@
+CREATE TABLE pets (patient_id INTEGER PRIMARY KEY, name VARCHAR(20) NOT NULL, category_type TEXT, breed TEXT, dateOfBirth DATE NOT NULL, owner_id INTEGER, FOREIGN KEY (owner_id) REFERENCES owners(owner_id));
+INSERT INTO pets (name, category_type, breed, dateOfBirth, owner_id) VALUES ( 'Miko', 'dog', 'chihuahua', '2021-01-03', 1);
+INSERT INTO pets (name, category_type, breed, dateOfBirth, owner_id) VALUES ( 'Peanut', 'cat', 'calico', '2018-08-15', 2 );
+
+CREATE TABLE owners (owner_id INTEGER PRIMARY KEY, first_name VARCHAR(20) NOT NULL, last_name VARCHAR(20) NOT NULL, phone_number VARCHAR(15) NOT NULL); 
+INSERT INTO owners (first_name, last_name, phone_number) VALUES ('Francisca', 'Martins', '+351910000456');
+
+
+
+SELECT * FROM animal; -- select all columns from table 'animal'
+
+drop TABLE animal; --to delete table from DB
